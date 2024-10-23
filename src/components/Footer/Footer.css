@@ -1,0 +1,37 @@
+.Footer {
+    border-top: 1px solid gray;
+    padding: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Footer div {
+    display: flex; /* Ensures the buttons are in a row */
+    align-items: center;
+  }
+  
+  .Footer button {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid white; /* Border color */
+    background-color: white; /* White background */
+    color: #580916; /* Dark text color */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effects */
+    padding: 10px 20px; /* Add padding for a nicer look */
+    margin-right: -15px; /* Overlap the buttons */
+    position: relative;
+  }
+  
+  .Footer button.blue {
+  
+    color: #1d36a8;
+  }
+  
+  .Footer button.green {
+    
+    color: #076917;
+  }
+  

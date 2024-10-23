@@ -1,0 +1,79 @@
+.paintings {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Ensure paintings wrap to the next line if there's not enough space */
+  justify-content: center; /* Center all the paintings */
+}
+
+.paintings li {
+  width: 300px;  /* Increased width of each painting item */
+  margin: 30px;  /* Added more margin to space them out */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paintings li img {
+  width: 100%; /* Set image width to 100% of the parent li's width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+.paintings li h3 {
+  margin: 15px 0; /* Increased margin for spacing */
+  font-family: 'Roboto', sans-serif; /* Using Google Font */
+  font-size: 22px; /* Increased font size */
+  color: #580916; /* Customize the color */
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Style the Link inside each painting */
+.paintings li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #580916; /* Link color to match your theme */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Change color on hover */
+.paintings li a:hover {
+  color: #9eaf4c; /* A light green or another color on hover */
+}
+
+
+button {
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 20px; /* Increased padding for larger buttons */
+  margin-top: 15px;  /* Increased margin for better spacing */
+  cursor: pointer;
+  border: 2px solid #580916;
+  background-color: white;
+  color: #580916;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #580916;
+  color: white;
+}
+.painting-link-container {
+  text-align: center; /* Optional: Center the link within the container */
+}
+
+.painting-link-container a {
+  text-decoration: none;
+  color: #580916; /* Link color */
+  transition: color 0.3s ease;
+}
+
+.painting-link-container a:hover {
+  color: #9eaf4c; /* Hover color for the link */
+}
