@@ -1,4 +1,4 @@
-My React Project
+# My React Project
 Welcome to my React project! This repository is created to share my journey of building a React application from scratch. Whether you're a beginner or someone looking to refresh your React knowledge, this project covers all the necessary steps to learn and understand React concepts.
 
 ##In addition to learning React, you can also see a part of my artistic life and explore my paintings within this project.
@@ -38,9 +38,7 @@ Prerequisites
 Make sure you have Node.js installed on your system.
 
 Download Node.js
-Installation
-Clone the repo:
-git clone https://github.com/yourusername/my-react-app.git
+
 =======
 
 Getting Started with Create React App
